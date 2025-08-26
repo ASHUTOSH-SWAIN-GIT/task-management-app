@@ -1,5 +1,7 @@
 version: "3"
 
+dotenv: [".env"]
+
 vars:
   TASKER_DB_DSN: '{{.TASKER_DB_DSN | default ""}}'
 
